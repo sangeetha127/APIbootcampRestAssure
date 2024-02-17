@@ -1,0 +1,46 @@
+[
+{
+	"givendata":
+[
+{
+"scenarioname":"Post new user creation",
+"data":[
+		{
+		  "user_first_name": "APISquadone",
+		  "user_last_name": "sangee",
+		  "user_contact_number": 1231231210,
+		  "user_email_id": "team11san@api.com",
+		  "userAddress": {
+			"plotNumber": "plot-1",
+			"street": "streetname",
+			"state": "Virginia",
+			"country": "USA",
+			"zipCode": 123456
+		  }
+		}
+	]
+},
+{
+"scenarioname":"Putbyuserid",
+"data":[
+		{
+		  "firstname": "APISquadtwo",
+		  "lastname": "updatedlastname",
+		  "contactno": 1231231220,
+		  "email": "team11APIsan@api.com",
+		  "userAddress": {
+			"plotno": "plot-2",
+			"street": "streetnae",
+			"state": "VA",
+			"country": "usa",
+			"zipcode": 654321
+		}
+		}
+	]
+}
+]
+}
+]
+
+
+

@@ -1,0 +1,77 @@
+[
+{
+"scenarioname":"1Post new user creation",
+"data":[
+		{
+		  "user_first_name": "APISquadone",
+		  "user_last_name": "sangee",
+		  "user_contact_number": 1231231210,
+		  "user_email_id": "team11san@api.com",
+		  "userAddress": {
+			"plotNumber": "plot-1",
+			"street": "streetname",
+			"state": "Virginia",
+			"country": "USA",
+			"zipCode": 123456
+		  }
+		},
+		{
+		  "user_first_name": "APISquadtwo",
+		  "user_last_name": "san",
+		  "user_contact_number": 1231231220,
+		  "user_email_id": "team11APIsan@api.com",
+		  "userAddress": {
+			"plotNumber": "plot-2",
+			"street": "streetnae",
+			"state": "VA",
+			"country": "usa",
+			"zipCode": 654321
+		  }
+		}
+	]
+},
+{
+"scenarioname":"Putbyuserid",
+"data":[
+		{
+		  "user_first_name": "APISquadone",
+		  "user_last_name": "updatedlastname",
+		  "user_contact_number": 1231231210,
+		  "user_email_id": "team11san@api.com",
+		  "userAddress": {
+			"plotNumber": "plot-1",
+			"street": "streetname",
+			"state": "Virginia",
+			"country": "USA",
+			"zipCode": 123456
+		}
+		}
+	]
+},
+{
+"scenarioname":"Post mandatory fields validation",
+"data":[
+		{
+		  "emptyfieldname": "",
+		  "user_first_name": "APISquadthree",
+		  "user_last_name": "sanmani",
+		  "user_contact_number": 1231231230,
+		  "user_email_id": "APISquad11san@api.com",
+		  "userAddress": {
+			"plotNumber": "plot-3",
+			"street": "streetname",
+			"state": "VA",
+			"country": "usa",
+			"zipCode": 654123
+			}
+		}
+	]
+}
+
+
+
+]
+
+
+
+
